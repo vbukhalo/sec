@@ -3,7 +3,7 @@ import * as React from "react";
 
 const Carousel = () => {
   return (
-    <div class="carousel w-full max-h-screen mt-5">
+    <div class="carousel w-full max-h-screen mt-5 rounded-lg">
       <div id="slide1" class="carousel-item relative w-full justify-center">
         <StaticImage
           src="../images/rva-youth.jpg"
